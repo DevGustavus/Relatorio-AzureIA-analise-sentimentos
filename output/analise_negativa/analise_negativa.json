@@ -1,0 +1,213 @@
+{
+    "documents": [
+        {
+            "id": "id__2718",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0,
+                "neutral": 0.01,
+                "negative": 0.99
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 0,
+                    "length": 56,
+                    "text": "Ah, estou muito frustrado com esse celular que comprei! ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 35,
+                            "length": 7,
+                            "text": "celular",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 16,
+                            "length": 9,
+                            "text": "frustrado",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 56,
+                    "length": 108,
+                    "text": "A bateria mal dura algumas horas, a câmera não funciona como prometido e o desempenho é extremamente lento. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 92,
+                            "length": 6,
+                            "text": "câmera",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 131,
+                            "length": 10,
+                            "text": "desempenho",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 103,
+                            "length": 8,
+                            "text": "funciona",
+                            "isNegated": true
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 157,
+                            "length": 5,
+                            "text": "lento",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 164,
+                    "length": 75,
+                    "text": "Paguei um preço alto por um produto que não atende às minhas necessidades. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 192,
+                            "length": 7,
+                            "text": "produto",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 208,
+                            "length": 6,
+                            "text": "atende",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 239,
+                    "length": 113,
+                    "text": "Espero que a empresa responsável resolva isso rapidamente, pois estou bastante insatisfeito com essa experiência.",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 340,
+                            "length": 11,
+                            "text": "experiência",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 318,
+                            "length": 12,
+                            "text": "insatisfeito",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
